@@ -1,0 +1,34 @@
+/* home section */
+#Home-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.intro-text{
+    text-align: center;
+    width: 50%;
+}
+.intro-text span{
+    color: var(--secondary-color);
+    text-wrap: nowrap;
+}
+.intro-text h1 {
+    margin-bottom: 0.5rem; /* Adds space between the text lines */
+}
+.intro-text p {
+    margin-bottom: 2rem; /* Adds space between the text lines */
+}
+.intro-text .btn{
+    border: 3px solid var(--secondary-color);
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    
+}
+.intro-text .btn:hover{
+    background-color: var(--secondary-color);
+}
+.profile-pic{
+    width: 50%;
+    height: auto
+}

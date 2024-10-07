@@ -1,0 +1,29 @@
+#About-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45vh;
+    padding: 0 10%;
+}
+#About-section h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+#About-section .content{
+    display: flex;
+    width: 100vw;
+
+}
+
+#About-section .content p{
+    margin-left: 0.5rem;
+}
+#About-section .line{
+    display: inline;
+    float: left;
+    background-color: var(--secondary-color);
+    border-radius: 0.3rem;
+    width: 20rem;
+    height: 0.1rem;
+    margin-top: 0.5rem;
+}

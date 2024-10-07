@@ -5,6 +5,11 @@
     <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     <title>kavinkumar's portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="projects.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -16,6 +21,7 @@
         </section>
         <nav class="nav-menu">
             <ul>
+             <li><a href="#Home-section">Home</a></li>
              <li><a href="#About-section">About</a></li>
              <li><a href=#Skills-section>Skills</a></li>
              <li><a href="#Projects-section">Projects</a></li>
@@ -24,11 +30,23 @@
             </ul>
         </nav>
     </header>
-    <main>        
+    <main>
+        <section id="Home-section">
+            <div class="intro-text">
+                <h1>Hello, I'm <span>Kavinkumar S P</span></h1>
+                <p>Software Developer</p>
+                <a href="#Contact-section" class="btn">Contact Me</a>
+            </div>
+            <figure class="profile-pic">
+                <img src="./img/my-pic.jpeg" alt="kavinkumar's pic" height="320" width="427" loading="lazy">
+            </figure>
+        </section>        
         <section id="About-section">
             <h2> About Me</h2>
-            <p>I like to build software products that make a difference. I’m passionate about turning ideas into reality through code and design, and I enjoy the entire process—from brainstorming solutions to seeing them come to life. I believe in creating user-friendly, efficient, and innovative applications that solve real-world problems. When I’m not working on a project, you’ll probably find me laughing and having fun with people around me, sharing moments, and enjoying the little things in life.</p>
-            
+            <div class="content">
+                <div class="line"></div>
+                <p>I like to build software products that make a difference. I’m passionate about turning ideas into reality through code and design, and I enjoy the entire process from brainstorming solutions to seeing them come to life. I believe in creating <span class="nowrap">user-friendly</span>, efficient, and innovative applications that solve <span class="nowrap">real-world</span> problems. When I’m not working on a project, you’ll probably find me laughing and having fun with people around me, sharing moments, and enjoying the little things in life.</p>
+            </div>
         </section>
         <section id="Skills-section">
             <h2>My Skills</h2>
